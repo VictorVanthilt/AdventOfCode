@@ -1,8 +1,2 @@
-file = [int(line.rstrip('\n')) for line in open('2021/Dec01/input.txt', 'r').readlines()]
-
-difflist = []
-
-for i in range(len(file)):
-    difflist.append(file[i] > file[i-1])
-    
-print(sum(difflist[1:]))
+file = [int(line.rstrip('\n')) for line in open('AdventOfCode/2021/Dec01/input.txt', 'r').readlines()]
+sum([file[i] > file[i-1] for i in range(len(file))])
