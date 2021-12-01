@@ -1,4 +1,4 @@
-file = [int(line.rstrip('\n')) for line in open('2021/Dec01/input.txt', 'r').readlines()]
+file = [int(line.rstrip('\n')) for line in open('input.txt', 'r').readlines()]
 
 temp1, temp2 = [], []
 
